@@ -22,7 +22,7 @@ function App() {
         <img 
           className="freecodecamp-logo"
           src={freeCodeCampLogo}
-          alt="Logo de freecodecamp" />
+          alt="Logo of freecodecamp" />
       </div>
       <div className="contenedor-principal">
         <Contador numClics={numClics} />
@@ -31,7 +31,7 @@ function App() {
           esBotonDeClic={true}
           majerarClic={manejarClic} />
         <Boton
-          texto="Reiniciar"
+          texto="Reset"
           esBotonDeClic={false}
           majerarClic={reiniciarContador} />
       </div>
